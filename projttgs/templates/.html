@@ -1,0 +1,150 @@
+{% extends 'base.html'  %}
+
+{% block content  %}
+
+<style>
+  .btn{
+      background-color:rgba(0,110,201,255);
+      border: none;
+  }
+  .btn:hover{
+      background-color: rgb(255, 255, 255);
+      color: black;
+  }
+  .btn1 {
+    background-color:rgba(0,110,201,255);
+      border: none;
+      color: white;
+  }
+  .btn1:hover{
+    background-color: black;
+  }
+</style>
+
+<form id="form1">
+        <!--Image Carousel-->
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%"  focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img src="static/img/temp.jpg" style="height: 100%;"/>
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h1><b>Easy to Use</b></h1>
+            <p>A Simple and Easy to use Timetable Generation tool for Colleges and Universities. Click on the Help Button for Assistance in Generating the Timetable.</p>
+            <p><a class="btn btn-lg btn-primary" href="{% url 'help' %}" role="button">Help</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+          <img src="static/img/temp2.jpg" />
+          <div class="container">
+          <div class="carousel-caption">
+            <h1><b>Efficient and Reliable.</b></h1>
+            <p>An efficient and a reliable tool to generate and save your Timetable with collision avoidance. Learn more about this WEB Scheduler.</p>
+            <p><a class="btn btn-lg btn-primary" href="{% url 'about' %}" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+          <img src="static/img/temp3.png" />
+          <div class="container">
+          <div class="carousel-caption ">
+            <h1><b>Simple and Non-Complex.</b></h1>
+            <p>The Development Process is Simplified using a Clean and an Elegant User Interface with Minimal Complexities.</p>
+            <p><a class="btn btn-lg btn-primary" href="{% url 'login' %}" role="button">Generate Timetable</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+    <!--Jumbotron-->
+    <div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <p class="lead">Welcome to Planificador Web Scheduler!, a timetable management system for colleges and universities to schedule their organization's timetable.
+                If your organization faces any challenges while generating or manipulating your timetable or have any concerns regarding the system please contact us.
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+            <a href="{% url 'contact' %}"><button type="button" class="btn1 btn-outline-secondary btn-lg" style="color: white" >Contact Us</button></a>
+        </div>
+    </div>
+    </div>
+    
+    <!--Build with Ease and Logos section-->
+    <div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Build with ease</h1>
+        </div>
+        
+        <div class="col-12">
+            <p class="lead">
+                A Timetable Generation Tool that allows the swift, efficient and smooth generation of college and university timetables with complete collision avoidance.
+            </p>
+        </div>
+
+    </div>
+    <hr width="60%">
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+          <div class="col-12">
+            
+              <h2>Description</h2>
+          </div>
+          <div style="text-align: center;  padding-left: 30px; padding-right: 30px;"        >
+            <p>A smart scheduler website that will find the optimal timetable according to the given requirements. It will also send a detailed reminder to everyone so that no one misses the exam. During the scheduling process, many constraints should be considered. Scheduling will be done in such a way that the students of the same course will not be able to sit together so that plagiarism can be avoided. Also, students won’t be having 3 consecutive exams in a day. Students and teachers can easily see their duties and exams from the scheduled timetable. </p>
+          </div>
+          <hr width="60%">
+      </div>
+      
+      </div>
+      <div class="col-12 text-center">
+          
+        <h2>Why ?</h2>
+    </div>
+    <div></div>
+    </div>
+    
+    
+    <div class="container-fluid">
+      
+      <div class="row text-center padding">
+      
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fa fa-bolt" aria-hidden="true"></i>
+            <h3>Fast</h3>
+            <p>Fast and Smooth Scheduling as compared to others.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <h3>Secure</h3>
+            <p>Secure Scheduling Process.</p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <i class="fa fa-check-square" aria-hidden="true"></i>
+            <h3>Reliable</h3>
+            <p>Reliable and Trustworthy Process.</p>
+        </div>
+    </div>
+   
+    </div>
+    
+    {% endblock %}

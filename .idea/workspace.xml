@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2adc43cc-f2c5-42cd-92ea-c1abb2141823" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/account/forms1.py" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/account/forms1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/account/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/account/static/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/account/templates/account/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/account/templates/account/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/account/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/account/templates/account/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/account/templates/account/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/account/templates/account/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/account/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/account/templates/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/account/templates/registration/logged_out.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/account/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/account/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/account/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/account/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/projttgs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/projttgs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/static/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/static/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/static/img/CarouselBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/templates/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/templates/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/templates/addCourses.html" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/templates/addCourses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/templates/admindashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/templates/admindashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/templates/gentimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/templates/gentimetable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/templates/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/templates/help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/ttgen/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/ttgen/chatbot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/ttgen/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/ttgen/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/ttgen/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/ttgen/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/ttgen/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/ttgen/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projttgs/ttgen/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projttgs/ttgen/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chatbot.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="2AQUH2iMkim3y65owOhNe8Jq9FL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2adc43cc-f2c5-42cd-92ea-c1abb2141823" name="Changes" comment="" />
+      <created>1654941214821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654941214821</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
